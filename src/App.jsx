@@ -67,13 +67,13 @@ function App() {
   return (
     <>
    
-      <img className="absolute -z-5 w-full max-h-[100%] h-[250px] md:hidden" src={`../src/assets/images/${theme == 'light'?"bg-mobile-light":"bg-mobile-dark"}.jpg`} alt="header_IMG" />
-      <img className="absolute -z-5 w-full max-h-[100%] h-[250px] hidden md:block" src={`../src/assets/images/${theme == 'light'?"bg-desktop-light":"bg-desktop-dark"}.jpg`} alt="header_IMG" />
+      <img className="absolute -z-5 w-full max-h-[100%] h-[250px] md:hidden" src={`./assets/images/${theme == 'light'?"bg-mobile-light":"bg-mobile-dark"}.jpg`} alt="header_IMG" />
+      <img className="absolute -z-5 w-full max-h-[100%] h-[250px] hidden md:block" src={`./assets/images/${theme == 'light'?"bg-desktop-light":"bg-desktop-dark"}.jpg`} alt="header_IMG" />
 
       <div className='mx-auto px-8 pt-10 max-w-[550px]'>
         <div className='flex justify-between mb-10'>
           <h1 className="relative z-1 font-bold text-slate-100 text-3xl tracking-[.5em]">TODO</h1>
-          <img className="relative z-1 w-auto h-7" onClick={toggleTheme} src={`../src/assets/images/icon-${theme == 'light'?'moon':'sun'}.svg` } alt={theme+"icon"} />
+          <img className="relative z-1 w-auto h-7" onClick={toggleTheme} src={`./assets/images/icon-${theme == 'light'?'moon':'sun'}.svg` } alt={theme+"icon"} />
         </div>
 
         <FormAddNewTodo AddingTodoFunc={AddingTodo} />
