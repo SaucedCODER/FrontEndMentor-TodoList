@@ -5,5 +5,4 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   base: "/FrontEndMentor-TodoList/",
   plugins: [react()],
-  assetsInclude: ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
 });
