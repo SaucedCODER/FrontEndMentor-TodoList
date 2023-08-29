@@ -71,7 +71,7 @@ I learned how to manage every code i make using functions.
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1><div></div> help me a lot on separating or structuring complicated stuffs</h1>
 ```
 
 ```css
@@ -81,9 +81,7 @@ To see how you can add code snippets, see below:
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+const [todo,setTodo]=useState([{data}])
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -103,7 +101,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [ReactTodolist](https://www.your-site.com)
+- Portfolio Website - [portfolio]((https://github.com/Callmesauce/-MyP-o-r-t-f-o-l-i-o.git)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - GitHub Account - [@Callmesauce](https://github.com/Callmesauce/)
 
