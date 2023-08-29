@@ -102,7 +102,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Portfolio Website - [portfolio]((https://github.com/Callmesauce/-MyP-o-r-t-f-o-l-i-o.git)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - GitHub Account - [@Callmesauce](https://github.com/Callmesauce/)
 
 # React + Vite
