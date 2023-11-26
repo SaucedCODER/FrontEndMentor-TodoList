@@ -78,7 +78,6 @@ const [todo,setTodo]=useState([{data}])
 
 ## Author
 
-- Portfolio Website - [portfolio]((https://github.com/SaucedCODER/-MyP-o-r-t-f-o-l-i-o.git)
 - GitHub Account - [@Callmesauce](https://github.com/SaucedCODER/)
 
 # React + Vite
